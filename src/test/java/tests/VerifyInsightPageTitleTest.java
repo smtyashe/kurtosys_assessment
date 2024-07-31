@@ -19,8 +19,7 @@ Faker faker = new Faker();
         homePage.getTitlePage();
 
         Assert.assertTrue(homePage.getTitlePage());
-
-        browserDriver.scrollToElementView();
+        
         whitePaperPage.clickUCITSWhitePaper();
         whitePaperPage.populateFirstName(faker.funnyName().name());
         whitePaperPage.populateLastName(faker.funnyName().name());
@@ -28,6 +27,7 @@ Faker faker = new Faker();
         whitePaperPage.populateIndustryField(faker.company().name());
         whitePaperPage.clickSendButton();
 
+        Assert.assertNotNull(whitePaperPage.takeSScreenShot());
 
     }
 }

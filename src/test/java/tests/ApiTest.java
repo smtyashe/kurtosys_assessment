@@ -14,7 +14,7 @@ public class ApiTest {
 
 
     @Test
-    public void validateApicallTest() throws Exception {
+    public void validateApiCallTest() throws Exception {
 
         final String API_URL = "https://www.kurtosys.com";
         final int TIMEOUT_MILLIS = 2000; // 2 seconds

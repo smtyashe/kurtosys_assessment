@@ -18,6 +18,7 @@ public abstract class BasePage {
         wait = new WebDriverWait(this.driver, Duration.ofSeconds(60L));
     }
 
+
     public void scrollToElementView(WebElement element) {
         ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView();", element);
     }

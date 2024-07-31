@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10940ffb-a0c1-4b92-9823-17077dd0242f" name="Changes" comment="compiled all test with their utils and pages for accessing element">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kurtosysAssessment/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kurtosysAssessment/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kurtosysAssessment/pages/WhitePaperPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kurtosysAssessment/utils/BrowserDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kurtosysAssessment/utils/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kurtosysAssessment/utils/PropertyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/VerifyInsightPageTitleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kurtosysAssessment/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurtosysAssessment/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kurtosysAssessment/pages/WhitePaperPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kurtosysAssessment/pages/WhitePaperPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/VerifyInsightPageTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/VerifyInsightPageTitleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +46,17 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Acer/Desktop/Kurtosys/kurtosys_assessment/src/main/java/org/kurtosysAssessment/pages",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/Users/Acer/Desktop/Kurtosys/kurtosys_assessment",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -79,6 +70,21 @@
       <recent name="" />
       <recent name="org.pages" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="kurtosys_assessment" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="kurtosys_assessment" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722341362802</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="compiled all test with their utils and pages for accessing element">
+      <option name="closed" value="true" />
+      <created>1722354296546</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722354296546</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

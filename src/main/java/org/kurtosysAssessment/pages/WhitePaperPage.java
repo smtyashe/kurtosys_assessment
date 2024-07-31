@@ -49,7 +49,9 @@ public class WhitePaperPage extends BasePage {
         sendButton.click();
     }
 
-    public void takeSScreenShot() {
+
+
+    public List<WebElement> takeSScreenShot() {
 
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
@@ -65,5 +67,6 @@ public class WhitePaperPage extends BasePage {
                 System.out.println("Error Message: " + msg.getText());
             }
         }
+        return errorMessages;
     }
 }
